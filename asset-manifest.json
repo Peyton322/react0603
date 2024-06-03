@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Peyton322/react0603.git/static/css/main.c6d03abf.css",
-    "main.js": "/Peyton322/react0603.git/static/js/main.a0bbc63f.js",
-    "index.html": "/Peyton322/react0603.git/index.html",
-    "main.c6d03abf.css.map": "/Peyton322/react0603.git/static/css/main.c6d03abf.css.map",
-    "main.a0bbc63f.js.map": "/Peyton322/react0603.git/static/js/main.a0bbc63f.js.map"
+    "main.css": "/react0603/static/css/main.c6d03abf.css",
+    "main.js": "/react0603/static/js/main.a0bbc63f.js",
+    "index.html": "/react0603/index.html",
+    "main.c6d03abf.css.map": "/react0603/static/css/main.c6d03abf.css.map",
+    "main.a0bbc63f.js.map": "/react0603/static/js/main.a0bbc63f.js.map"
   },
   "entrypoints": [
     "static/css/main.c6d03abf.css",
