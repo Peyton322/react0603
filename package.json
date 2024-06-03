@@ -1,6 +1,6 @@
 {
   "name": "ch3",
-  "homepage": "https://github.com/Peyton322/react0603.git",
+  "homepage": " https://peyton322.github.io/react0603/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "formik": "^2.4.6",
+    "gh-pages": "^6.1.1",
     "i18next": "^23.11.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -25,8 +26,8 @@
     "yup": "^1.4.0"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
