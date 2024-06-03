@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 40px; /* 調整Logo的大小 */
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* 加入過渡效果 */
+}
+
+.nav-links a:hover {
+  color: rgb(186, 186, 186); /* 滑鼠懸停時變更文字顏色 */
+  transform: scale(1.1); /* 滑鼠懸停時放大連結 */
+}
+
+.nav-links a:hover {
+  color: rgb(186, 186, 186); /* 滑鼠懸停時變更文字顏色 */
+  transform: scale(1.1); /* 滑鼠懸停時放大連結 */
+}
+

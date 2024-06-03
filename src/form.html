@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <h3>文字輸入類</h3>
+        <p>text : <input type="text" name="text" placeholder="請輸入文字"></p>
+        <p>password : <input type="password" name="password"></p>
+        <p>email : <input type="email" name="email"></p>
+        <p>tel : <input type="tel" name="tel"></p>
+        <p>number : <input type="number" name="number"></p>
+        <p>url : <input type="url" name="url"></p>
+        <p>search : <input type="search" name="search"></p>
+        <br />
+        <h3>顏色選擇器</h3>
+        <p>color : <input type="color" name="color" value="#0305AA"></p>
+        <br />
+        <h3>checkbox</h3>
+        <input type="checkbox" name="checkbox" value="checkbox1" checked>checkbox1<br />
+        <input type="checkbox" name="checkbox" value="checkbox2">checkbox1<br />
+        <input type="checkbox" name="checkbox" value="checkbox3">checkbox3<br />
+        <br />
+
+        <h4>radio group</h4>
+        <input type="radio" name="radio" value="radio1">radio1<br>
+        <input type="radio" name="radio" value="radio2" checked>radio2<br>
+        <input type="radio" name="radio" value="radio3">radio3<br>
+
+        <br>
+
+        <h3>日期選擇</h3>
+        <p><input type="date" name="date" value="date"></p>
+        <p><input type="month" name="month" value="month"></p>
+        <p><input type="week" name="week" value="week"></p>
+        <p><input type="time" name="time" value="time"></p>
+        <p><input type="datetime-local" name="datetime-local" value="datetime-local"></p>
+
+        <br>
+
+        <h3>數值選擇</h3>
+        <input type="range" name="range" value="range" max="100" min="10">
+
+        <br>
+
+        <h3>表單按鈕</h3>
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset" value="Reset">
+        <input type="button" name="button" value="button">
+
+
+
+    </form>
+</body>
+
+</html>
